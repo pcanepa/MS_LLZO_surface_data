@@ -14,6 +14,9 @@ Two type of surface models are available per each distinct chemical termination:
 Finally, for certain surface models the effect of Li converage is also explored. 
 
 Additional surface structures (orderings) are available upon request. 
+
+## Calculation setup
+### INCAR file 
 All the structures have been carefully optimized (at the bulk volume) utilizing the [Vienna *Ab initio* Simulation Package](http://www.vasp.at), and the following INCAR file based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org).  
 
 ```
@@ -41,6 +44,8 @@ PREC   = Accurate
 SIGMA  = 0.05
 SYMPREC= 1e-8
 ```
+
+###  *k*-space integration, KPOINT file 
 The *k*-point integration mesh was based on the attached KPOINT file. Gamma centering was invoked whenever needed. 
 
 ```
@@ -49,6 +54,7 @@ Automatic mesh
 M
 2 2 1
 ```
+### Potential utilized, POTCAR file
 The PAW potentials used were: 
 
 ```
