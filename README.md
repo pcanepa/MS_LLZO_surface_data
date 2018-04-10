@@ -17,29 +17,29 @@ Additional surface structures (orderings) are available upon request.
 All the structures have been carefully optimized utilizing the [Vienna *Ab initio* Simulation Package](http://www.vasp.at), and the following INCAR file based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org).  
 
 ```
-EDIFF = 1e-06
+EDIFF  = 1e-06
 EDIFFG = -0.01
-ENCUT = 520
-ALGO = Fast
-AMIN = 0.01
-AMIX = 0.2
-BMIX = 0.001
+ENCUT  = 520
+ALGO   = Fast
+AMIN   = 0.01
+AMIX   = 0.2
+BMIX   = 0.001
 IBRION = 2
 ICHARG = 1
-ISIF = 2
+ISIF   = 2
 ISMEAR = 0
-ISPIN = 1
+ISPIN  = 1
 LORBIT = 11
 LPLANE = True
-LREAL = Auto
-LWAVE = False
-NELM = 100
+LREAL  = Auto
+LWAVE  = False
+NELM   = 100
 NELMIN = 6
-NPAR =12
-NSW = 99
-PREC = Accurate
-SIGMA = 0.05
-SYMPREC = 1e-8
+NPAR   = 12
+NSW    = 99
+PREC   = Accurate
+SIGMA  = 0.05
+SYMPREC= 1e-8
 ```
 The *k*-point integration mesh was based on the attached KPOINT file. Gamma centering was invoked whenever needed. 
 
