@@ -14,7 +14,7 @@ Two type of surface models are available per each distinct chemical termination:
 Finally, for certain surface models the effect of Li converage is also explored. 
 
 Additional surface structures (orderings) are available upon request. 
-All the structures have been carefully optimized utilizing the [Vienna Ab Initio Simulation Package] (http://www.vasp.at), and the following INCAR file based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org).  
+All the structures have been carefully optimized utilizing the [VASP] (http://www.vasp.at), and the following INCAR file based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org).  
 
 ```
 EDIFF = 1e-06
