@@ -2,7 +2,7 @@
 
 
 ## Summary 
-This repository contains the relevant surface structures computed in the published paper Particle Morphology and Lithium Segregation to Surfaces of the Li<sub>7</sub>La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub> Solid Electrolyte, P. Canepa *et al.*, *Chem. Mater.* (2018) DOI:
+This repository contains the relevant surface example input files and structures computed in the paper Particle Morphology and Lithium Segregation to Surfaces of the Li<sub>7</sub>La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub> Solid Electrolyte, P. Canepa *et al.*, *Chem. Mater.* (2018) DOI:
 
 ### Only the most stable orderings are archived in this repository.
 
@@ -17,7 +17,7 @@ Additional surface structures (orderings) are available upon request.
 
 ## Calculation setup
 ### INCAR file 
-All the structures have been carefully optimized (at the bulk volume) utilizing the [Vienna *Ab initio* Simulation Package](http://www.vasp.at), and the following INCAR file based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org).  
+All structures have been carefully optimized (at the bulk volume) utilizing the [Vienna *Ab initio* Simulation Package](http://www.vasp.at). The following INCAR file is based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org) and the **MVLSlabSet** set.  
 
 ```
 EDIFF  = 1e-06
@@ -55,11 +55,11 @@ M
 2 2 1
 ```
 ### Potential utilized, POTCAR file
-The PAW potentials used were: 
+The PAW potentials at the Generalized Gradient level of approximation used were: 
 
-```
-Li: PAW_PBE Li_sv 23Jan2001, 1s2s2p
-La: PAW_PBE La 06Sep2000, [core=Kr4d]
-Zr: PAW_PBE Zr_sv 07Sep2000, 4s4p5s4d
-O:  PAW_PBE O 08Apr2002, s2p4
-```
+|  Element      |  Potential Name            |  Electronic configuration | ENMAX |
+| ------------- |:-------------              | :-----       | :-----       |
+| Li            | PAW\_PBE Li\_sv 23Jan2001  | 1s2s2p       | 271.649 |
+| La            | PAW\_PBE La 06Sep2000      | [core=Kr4d]  | 219.313 |
+| Zr            | PAW\_PBE Zr\_sv 07Sep2000  | 4s4p5s4d     | 229.839 |
+| O             | PAW\_PBE O 08Apr2002       | s2p4         | 400.000 |
