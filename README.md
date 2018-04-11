@@ -45,7 +45,7 @@ SIGMA  = 0.05
 SYMPREC= 1e-8
 ```
 
-###  *k*-space integration, KPOINT file 
+###  Setup of *k*-space integration, KPOINT file 
 The *k*-point integration mesh was based on the attached KPOINT file. Gamma centering was invoked whenever needed. 
 
 ```
