@@ -2,7 +2,7 @@
 
 
 ## Summary 
-This repository contains the relevant surface example input files and structures computed in the paper Particle Morphology and Lithium Segregation to Surfaces of the Li<sub>7</sub>La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub> Solid Electrolyte, P. Canepa *et al.*, *Chem. Mater.* (2018) DOI:
+This repository contains the relevant surface example input files and structures computed in the paper Particle Morphology and Lithium Segregation to Surfaces of the Li<sub>7</sub>La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub> Solid Electrolyte, P. Canepa *et al.*, *Chem. Mater.* (2018) DOI: [10.1021/acs.chemmater.8b00649](https://doi.org/10.1021/acs.chemmater.8b00649).
 
 ### Only the most stable orderings are archived in this repository.
 
