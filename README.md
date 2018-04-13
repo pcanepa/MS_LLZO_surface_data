@@ -57,7 +57,7 @@ M
 ### Potential utilized, POTCAR file
 The PAW potentials at the Generalized Gradient level of approximation used were: 
 
-|  Element      |  Potential Name            |  Electronic configuration | ENMAX |
+|  **Element**      |  **Potential Name**            |  **Electronic configuration** | **ENMAX (eV)** |
 | ------------- |:-------------              | :-----       | :-----       |
 | Li            | PAW\_PBE Li\_sv 23Jan2001  | 1s2s2p       | 271.649 |
 | La            | PAW\_PBE La 06Sep2000      | [core=Kr4d]  | 219.313 |
