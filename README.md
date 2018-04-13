@@ -17,7 +17,7 @@ Additional surface structures (orderings) are available upon request.
 
 ## Calculations setup
 ### DFT environment setup, INCAR file 
-All structures have been carefully optimized (at the bulk volume) utilizing the [Vienna *Ab initio* Simulation Package](http://www.vasp.at). The following INCAR file is based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org) and the **MVLSlabSet** set.  
+All structures have been carefully optimized (at the bulk volume) utilizing the [Vienna Ab initio Simulation Package](http://www.vasp.at). The following INCAR file is based on the MaterialsProject standards defined via [pymatgen](http://pymatgen.org) and the **MVLSlabSet** set.  
 
 ```
 EDIFF  = 1e-06
