@@ -1,4 +1,4 @@
-# Repository of computed data 
+# Repository of computed data  [![DOI](https://zenodo.org/badge/128926251.svg)](https://zenodo.org/badge/latestdoi/128926251)
 
 
 ## Summary 
